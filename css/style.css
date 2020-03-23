@@ -7,6 +7,7 @@ header
 ul li
 {
     display: inline-block;
+    transition: 3s;
 }
 
 @media screen and (max-width: 994px)
@@ -15,8 +16,8 @@ ul li
     {
         background-image: url('../img/bg.jpg');
 
-        position: absolute;
         background-repeat: no-repeat;
+        background-size: auto;
     }
 
 header h1  
@@ -25,6 +26,7 @@ header h1
     font-size: 88pt;
     font-style: normal;
     color: white;
+    transition: 3s;
     
 
 }
@@ -46,6 +48,7 @@ ul li
     font-style: normal;
     padding: 10px;
     font-size: 24pt;
+    transition: 3s;
 }
 .container-login
 {
