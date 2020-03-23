@@ -14,7 +14,7 @@
 <body>
     <header>
     <h1>YOLO</h1>
-    <a onclick="ToggleMenu();"> <i ><i class="fas fa-bars"></i></a>
+    <a onclick="ToggleMenu();"> <i class="fas fa-bars"></i></a>
     
     <ul>
         <a href="#"><li name='li'>HOME</li></a>
@@ -33,7 +33,7 @@
 
         <a href="#"><h3>Esqueceu sua senha?</h3></a>
 
-        <h3>Não tem uma conta? <a href=""> Cadastre-se</h3></a>
+        <h3>Não tem uma conta? <a href="#"> Cadastre-se</a></h3>
     </section>
 
 
@@ -43,7 +43,7 @@
      <a href="#"> <i class="fab fa-twitter"></i> </a>
      <a href="#"> <i class="fab fa-linkedin"></i> </a>
      <a href="#"> <i class="fab fa-google-plus-g"></i> </a>
-    <HR></HR>
+    <HR>
         <div id='dev_logo'></div>
         </footer>
 </body>
