@@ -25,11 +25,11 @@
     </header>
     <section class='container-login'>
      
-        <input class='buttons' Placeholder='username' size='50' maxlength="10" type='text'>
+        <input  Placeholder='username' size='50' maxlength="10" type='text'>
 
-        <input  class='buttons' Placeholder='password' maxlength="14" type='password'>
+        <input  Placeholder='password' maxlength="14" type='password'>
         <br>
-        <input id='submit' type='submit' value='LOGIN'>
+        <input type='submit' value='LOGIN'>
 
         <a href="#"><h3>Esqueceu sua senha?</h3></a>
 
