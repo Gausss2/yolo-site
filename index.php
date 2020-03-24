@@ -12,7 +12,8 @@
 </head>
  
 <body>
-    <header>
+    <div id='img-bg'>
+    <header class='container'>
     <h1>YOLO</h1>
     <a onclick="ToggleMenu();"> <i class="fas fa-bars"></i></a>
     
@@ -23,9 +24,9 @@
     </ul>
     
     </header>
-    <section class='container-login'>
-     
-        <input  Placeholder='username' size='50' maxlength="10" type='text'>
+    <section class='login-container'>
+        <h2>FAÇA LOGIN</h2>     
+        <input  Placeholder='username' size='50' maxlength="15" type='text'>
 
         <input  Placeholder='password' maxlength="14" type='password'>
         <br>
@@ -33,7 +34,7 @@
 
         <a href="#"><h3>Esqueceu sua senha?</h3></a>
 
-        <h3>Não tem uma conta? <a href="#"> Cadastre-se</a></h3>
+        <a href="#"> <h3>Não tem uma conta? Cadastre-se</h3></a>
     </section>
 
 
@@ -44,7 +45,8 @@
      <a href="#"> <i class="fab fa-linkedin"></i> </a>
      <a href="#"> <i class="fab fa-google-plus-g"></i> </a>
     <HR>
-        <div id='dev_logo'></div>
+        <p>GAUSS &copy; 2020</p>
         </footer>
+        </div>  
 </body>
 </html>
