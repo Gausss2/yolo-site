@@ -7,7 +7,7 @@ header
 ul li
 {
     display: inline-block;
-    transition: 3s;
+
 }
 
 @media screen and (max-width: 994px)
