@@ -20,31 +20,32 @@
     <ul>
         <a href="#"><li name='li'>HOME</li></a>
         <a href='#'> <li name='li'>LOGIN</li></a> 
-        <a href='#'>  <li name='li'>ABOUT US</li></a> 
+        <a href='#'>  <li name='li'>ABOUT</li></a> 
     </ul>
     
     </header>
     <section class='login-container'>
-        <h2>FAÇA LOGIN</h2>     
-        <input  Placeholder='username' size='50' maxlength="15" type='text'>
+        <h2>LOGIN</h2>     
+        <input  Placeholder='username' size='50' maxlength="24" type='text'>
 
-        <input  Placeholder='password' maxlength="14" type='password'>
+        <input  Placeholder='password' maxlength="24" type='password'>
         <br>
         <input type='submit' value='LOGIN'>
 
-        <a href="#"><h3>Esqueceu sua senha?</h3></a>
+        <a href="#"><h3>Forgot your password?</h3></a>
 
-        <a href="#"> <h3>Não tem uma conta? Cadastre-se</h3></a>
+        <a href="#"> <h3>Don't have a account yet? Sign up</h3></a>
     </section>
 
 
     <footer>
-        
-   <a href="#"> <i class="fab fa-instagram"></i></a> 
-     <a href="#"> <i class="fab fa-twitter"></i> </a>
-     <a href="#"> <i class="fab fa-linkedin"></i> </a>
-     <a href="#"> <i class="fab fa-google-plus-g"></i> </a>
-    <HR>
+    <UL> 
+   <a href="#"> <li><i class="fab fa-instagram"></i></li></a> 
+     <a href="#"> <li><i class="fab fa-twitter"></i></li> </a>
+     <a href="#"><li> <i class="fab fa-linkedin"></i></li> </a>
+     <a href="#"><li> <i class="fab fa-google-plus-g"></i></li> </a>
+    <UL></UL>
+     <HR>
         <p>GAUSS &copy; 2020</p>
         </footer>
         </div>  

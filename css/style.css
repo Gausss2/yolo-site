@@ -1,15 +1,14 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
 *{margin: 0; padding-top: 0; font-family: 'Roboto', sans-serif;}
-
+/*============= HEADER ====================*/
 #img-bg
 {
-    background-image: url('../img/bg_web.jpg');
+    background-image: url('../img/bg_1.jpg');
     
  
     width: 100%;
     background-repeat: no-repeat;
     background-size: cover;
-    background-position-x: 20%;
     
 }
 
@@ -18,11 +17,6 @@
     font-size: 0;
 }
 
-ul li
-{
-    
-    display: inline-block;
-}
 
 .container
 {
@@ -34,19 +28,37 @@ header
     background-color: black;
     height: 135px;
 }
-h1 {color: white; font-size: 72pt; text-align: center; }
+h1 {color: white; font-size: 52pt; text-align: center; }
 
-ul {background-color: black;}
-ul li
+ul 
 {
-    font-size: 1.2em;
-    padding-left: 100px;
-    margin: 10px 155px auto;
-    background-color: black;
-    height: 30px;
-    color: white;
+    list-style: none;
+    display: block;
+    margin: 0;
+    padding: 0;
+    text-align: center;
 }
 
+ul li 
+{
+    display: inline; 
+    margin: 0 auto;
+    padding: 10px 50px;
+    text-align: center;
+}
+
+ul li:hover
+{
+    background-color: white;
+    color: black;
+    transition: 0.2s;
+}
+
+
+
+/*============= END HEADER ====================*/
+
+/*=============CONTENT ====================*/
 .login-container
 {
     margin: 100px auto;
@@ -55,6 +67,7 @@ ul li
     background-color: black;
     padding: 27px;
     border-radius: 7px;
+    opacity: 0.9;
 }
 
 
@@ -68,13 +81,16 @@ input[type='text'], input[type='password']
     border-radius: 7px;
     background-color: white;
     border: 0;
-    opacity: 0.9;
-    text-decoration: underline;
+    opacity: 0.8;
+    text-decoration: none;
+
 }
 
 input[type='text'], input[type='password']:focus
 {
     outline: none;
+    opacity: 1;
+    
 }
 
 input[type='submit']
@@ -87,7 +103,15 @@ input[type='submit']
     margin-left: 15.5%;
     border-radius: 7px;
     border: 0;
+    opacity: 0.8;
     
+}
+
+input[type='submit']:hover
+{
+    cursor: pointer;
+    opacity: 1.0;
+
 }
 
 input[type='submit']:focus
@@ -109,6 +133,10 @@ h3,a
     font-size: 10pt;
     text-align: center;
 }
+
+/*============= END CONTENT ====================*/
+
+/*============= FOOTER ====================*/
 footer
 {
     background-color: black;
@@ -122,13 +150,32 @@ hr
     margin-top: 10px;
     margin-left: 15%;
 }
-footer .fa-instagram, .fa-twitter, .fa-linkedin, .fa-google-plus-g
+
+footer ul li 
 {
-    margin-left: 30px;
-    padding-top: 20px;
-    font-size: 22pt;
-    margin: 10px auto;
-    padding-left:280px ;
+    display: inline; 
+    margin: 0 auto;
+    padding: 12px 50px;
+    text-align: center;
 }
 
-p {color: white; text-align: center; margin: 10px auto;}
+.fa-google-plus-g, .fa-linkedin, .fa-instagram, .fa-twitter
+{
+    font-size: 20pt;
+    padding-top: 1%;
+}
+
+
+footer ul
+{
+    list-style: none;
+    display: block;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+
+p {color: white; text-align: center; margin: 20px auto;}
+
+/*============= END FOOTER ====================*/
