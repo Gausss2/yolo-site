@@ -5,3 +5,5 @@ The backend will have a  database for login, register e redefine password (IN PH
 a preview:
 
 ![alt text](https://github.com/Gausss2/yolo-site/blob/cleanning/preview.png)
+
+![alt text](https://github.com/Gausss2/yolo-site/blob/web-version/preview_2.png)
