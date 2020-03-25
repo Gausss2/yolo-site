@@ -5,3 +5,4 @@ The backend will have a  database for login, register e redefine password (IN PH
 a preview:
 
 
+![GitHub Logo](./preview_2.png)
