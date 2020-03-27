@@ -179,3 +179,18 @@ footer ul
 p {color: white; text-align: center; margin: 20px auto;}
 
 /*============= END FOOTER ====================*/
+
+@media  screen and ( max-width: 994px)
+{
+    ul li {padding: 15px 30px;}
+    footer ul li {padding: 12px 20px;}
+    footer ul {padding-top: 10px;}
+    footer p {margin: 10px;}
+
+    .fa-google-plus-g, .fa-linkedin, .fa-instagram, .fa-twitter
+{
+    font-size: 20pt;
+    padding-top: 1%;
+}
+
+}
